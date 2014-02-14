@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chat_thread_composer_text_color">#ff464c59</color>
+    <color name="chat_thread_composer_text_hint_color">#ffb9bec6</color>
+</resources>

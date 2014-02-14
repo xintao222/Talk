@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Talk</string>
+    <string name="composer_hint_new_thread">编写消息...</string>
+    <string name="menu_clear">清除</string>
+
+</resources>
