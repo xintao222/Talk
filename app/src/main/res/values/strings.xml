@@ -4,5 +4,9 @@
     <string name="app_name">Talk</string>
     <string name="composer_hint_new_thread">编写消息...</string>
     <string name="menu_clear">清除</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_main_activity2">MainActivity</string>
+    <string name="message">消息</string>
+    <string name="people">在线成员</string>
 
 </resources>

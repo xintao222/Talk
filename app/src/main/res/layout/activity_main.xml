@@ -1,62 +1,6 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ivandgetic.talk.MainActivity$PlaceholderFragment">
-
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        android:layout_above="@+id/linearLayout" />
-
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@android:color/transparent"
-        android:minHeight="48.0dip"
-        android:id="@+id/linearLayout">
-
-        <ImageView
-            android:id="@+id/compose_vertical_divider_emoji_attachments"
-            android:layout_width="48.0dip"
-            android:layout_height="48.0dip"
-            android:layout_gravity="center"
-            android:scaleType="center"
-            android:src="@drawable/orca_composer_attachments_off" />
-
-        <EditText
-            android:layout_width="0.0dip"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1.0"
-            android:background="@android:color/transparent"
-            android:id="@+id/compose_edit"
-            android:hint="@string/composer_hint_new_thread"
-            android:gravity="center_vertical"
-            android:imeOptions="actionDone|flagNoFullscreen"
-            android:inputType="textCapSentences|textAutoCorrect|textMultiLine|textImeMultiLine"
-            android:maxLength="5000"
-            android:maxLines="3"
-            android:paddingBottom="3.0dip"
-            android:paddingLeft="7.0dip"
-            android:paddingTop="3.0dip"
-            android:singleLine="false"
-            android:textColor="@color/chat_thread_composer_text_color"
-            android:textColorHint="@color/chat_thread_composer_text_hint_color"
-            android:textSize="@dimen/chat_thread_compose_text" />
-
-        <ImageView
-            android:id="@+id/compose_button_send"
-            android:layout_width="48.0dip"
-            android:layout_height="48.0dip"
-            android:layout_gravity="center"
-            android:scaleType="center"
-            android:src="@drawable/orca_composer_send" />
-
-    </LinearLayout>
-
-</RelativeLayout>
+    tools:context="ivandgetic.talk.app.MainActivity" />
